@@ -1,8 +1,8 @@
 <template>
   <v-card>
-    <v-card-header-text>
+    
       <v-card-title>Numenera playground</v-card-title>
-    </v-card-header-text>
+    
     <v-card-text>
       Welcome to my Numenera playground, full of tools and generators to help
       you run your Numenera game.

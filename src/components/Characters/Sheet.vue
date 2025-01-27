@@ -1,8 +1,8 @@
 <template>
   <v-card>
-    <v-card-header-text>
+    
       <v-card-title>{{ title }}</v-card-title>
-    </v-card-header-text>
+    
     <v-card-text>
       <v-form>
           <v-card variant="plain">

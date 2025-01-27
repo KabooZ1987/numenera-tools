@@ -1,9 +1,7 @@
 <template>
   <v-card>
-    <v-card-header-text>
       <v-card-title>Character Generator</v-card-title>
       <v-card-subtitle>Choose your Descriptor, Type and Focus</v-card-subtitle>
-    </v-card-header-text>
     <v-card-text>
         <v-form>
           <v-row>

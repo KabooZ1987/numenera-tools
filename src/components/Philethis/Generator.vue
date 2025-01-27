@@ -1,8 +1,8 @@
 <template>
   <v-card>
-    <v-card-header-text>
+    
       <v-card-title>Philethis Phrase Generator</v-card-title>
-    </v-card-header-text>
+    
     <v-card-text>
       {{ phrase }}
     </v-card-text>

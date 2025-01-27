@@ -1,8 +1,8 @@
 <template>
   <v-card>
-    <v-card-header-text>
+    
       <v-card-title>Rust Cypher Generator</v-card-title>
-    </v-card-header-text>
+    
     <v-card-text>
       <h3>A level {{ level }} rust cypher that targets {{ typedesc }}</h3>
       <dl>

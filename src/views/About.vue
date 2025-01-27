@@ -1,8 +1,8 @@
 <template>
   <v-card>
-    <v-card-header-text>
+    
       <v-card-title>About</v-card-title>
-    </v-card-header-text>
+    
     <v-card-text>
       <p>
         Hello, my name is <strong>darkliquid</strong> and I made all these tools
