@@ -39,11 +39,11 @@
             :value="item"
             :to="item.to"
             :href="item.href"
-            active-color="primary"
+            color="primary"
           >
-            <v-list-item-avatar start class="nav-icon">
+            <v-avatar start class="nav-icon">
               <v-icon :icon="item.icon"></v-icon>
-            </v-list-item-avatar>
+            </v-avatar>
             <v-list-item-title v-text="item.text"></v-list-item-title>
           </v-list-item>
         </v-list>
