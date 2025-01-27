@@ -9,7 +9,7 @@
               <span class="sentence-fragment">I am a</span>
               <MdlSelectField
                 id="descriptor"
-                :value="descriptor"
+                :value="null"
                 :options="groupedDescriptors"
                 label="Descriptor"
                 required
@@ -21,7 +21,7 @@
           <v-col>
             <MdlSelectField
                 id="type"
-                :value="type"
+                :value="null"
                 :options="groupedTypes"
                 label="Type"
                 required
@@ -34,7 +34,7 @@
             <span class="sentence-fragment">who</span>
             <MdlSelectField
                 id="focus"
-                :value="focus"
+                :value="null"
                 :options="groupedFoci"
                 label="Focus"
                 required
