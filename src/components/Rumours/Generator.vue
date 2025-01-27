@@ -1,8 +1,8 @@
 <template>
   <v-card>
-    <v-card-header-text>
+    
       <v-card-title>Rumour Generator</v-card-title>
-    </v-card-header-text>
+    
     <v-card-text>
       <p>{{ phrase }}</p><br>
       <p>{{ aside }}</p>

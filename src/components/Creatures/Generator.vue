@@ -1,7 +1,7 @@
 <template>
   <v-card>
     <v-card-header>
-      <v-card-header-text>Creature Generator</v-card-header-text>
+      Creature Generator
     </v-card-header>
     <v-card-text>
       <v-table>

@@ -1,8 +1,8 @@
 <template>
   <v-card>
-    <v-card-header-text>
+    
       <v-card-title>Name Generator</v-card-title>
-    </v-card-header-text>
+    
     <v-card-text>
       {{ name }}
     </v-card-text>

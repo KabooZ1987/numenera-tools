@@ -52,10 +52,10 @@ export default {
     }
   },
   watch: {
-    value (val) {
-      this.selected = val
-    },
-    selected (val) {
+    // value (val) {
+    //   this.selected = val.target.value
+    // },
+    selected (val) {    
       this.$emit('input', val)
     }
   }

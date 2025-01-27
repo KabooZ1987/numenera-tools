@@ -1,9 +1,7 @@
 <template>
   <v-card>
-    <v-card-header-text>
       <v-card-title>Character Generator</v-card-title>
       <v-card-subtitle>Choose your Descriptor, Type and Focus</v-card-subtitle>
-    </v-card-header-text>
     <v-card-text>
         <v-form>
           <v-row>
@@ -11,7 +9,7 @@
               <span class="sentence-fragment">I am a</span>
               <MdlSelectField
                 id="descriptor"
-                :value="descriptor"
+                :value="null"
                 :options="groupedDescriptors"
                 label="Descriptor"
                 required
@@ -23,7 +21,7 @@
           <v-col>
             <MdlSelectField
                 id="type"
-                :value="type"
+                :value="null"
                 :options="groupedTypes"
                 label="Type"
                 required
@@ -36,7 +34,7 @@
             <span class="sentence-fragment">who</span>
             <MdlSelectField
                 id="focus"
-                :value="focus"
+                :value="null"
                 :options="groupedFoci"
                 label="Focus"
                 required
