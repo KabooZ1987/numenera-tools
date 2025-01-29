@@ -13,7 +13,6 @@ export default defineConfig({
   ],
   define: { 
     'process.env': {},
-    '__GA_TRACKING_CODE__': '"UA-6075745-1"'
   },
   resolve: {
     alias: {
